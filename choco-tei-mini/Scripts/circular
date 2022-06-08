@@ -1,0 +1,3 @@
+#!C:\Users\m-kitaoka\Documents\VScode\python-venv\choco-tei-mini\Scripts\python.exe
+import circular.circular
+circular.circular.main()
