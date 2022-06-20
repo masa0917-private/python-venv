@@ -72,7 +72,7 @@ class Stock:
         if k == 'quantity':
             sorted_stock = sorted(self.items_list, key = lambda x: x.quantity, reverse = r)
         elif k == 'worth':
-            sorted_stock = sorted(self.items_liste, key = lambda x: x.worth, reverse = r)
+            sorted_stock = sorted(self.items_list, key = lambda x: x.worth, reverse = r)
         for i in sorted_stock:
             i.show()
         print('-' * 90)
